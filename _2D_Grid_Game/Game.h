@@ -4,7 +4,7 @@ using namespace utils;
 
 #pragma region gameInformation
 // TODO: Set your name and group in the title here
-std::string g_WindowTitle{ "Project name - Name, firstname - 1DAExx" };
+std::string g_WindowTitle{ "Tank Wars! - Goeminne Senne & Chloe Jonckheere, 1DAE29" };
 
 // Change the window dimensions here
 float g_WindowWidth{ 1280 };
@@ -34,19 +34,16 @@ enum class Direction
 	left,
 	STATE_COUNT //Amount of options in enum, also used as checker in MoveTank function
 };
-
 struct Sprite
 {
 	Texture texture;
 	int nrCols;
 	float spriteSize;
 };
-
 struct Bullet {
 	Point2f position;
 	Direction direction;
 };
-
 struct Tank
 {
 	const int id;
@@ -77,7 +74,6 @@ Tank g_Tank1{
 	SDLK_RSHIFT
 
 };
-
 Tank g_Tank2{
 	2,
 	Point2f{},
@@ -91,24 +87,24 @@ Tank g_Tank2{
 	SDLK_LSHIFT
 };
 
-// Declare your own functions here
 void ResetGame();
 void LoadSprites();
 void InitializeMap();
+void PrintInfo();
 
 void MoveTank(Tank& tank, const Uint8* pStates, float elapsedSec);
-void DrawGrid(int grid[], int nrRows, int nrCols, int cellSize, Point2f drawPos, float scale = 1.f);
 void DrawTank(const Tank& tank);
+
+void DrawGrid(int grid[], int nrRows, int nrCols, int cellSize, Point2f drawPos, float scale = 1.f);
 
 int GetIndex(int rowIndex, int columnIndex, int numCols);
 int GetRow(int index, int numCols);
 int GetCol(int index, int numCols);
-
 int PointToGridIndex(Texture** pointerArr, int rows, int cols, int cellSize, const Point2f& gridPos, const Point2f& point);
 int PointToGridIndex(const Point2f& point);
+
 bool IsMovementAllowed(int gridIndex);
 bool IsHitboxMovementAllowed(const Rectf& rect);
-Tank* getEnemyPointer(const Tank& tank);
 
 void DrawBullet(const Tank& tank);
 void UpdateBullet(Tank& tank, float elapsedSec);
@@ -117,9 +113,7 @@ void FireBullet(Tank& tank);
 void HitEnemy(Tank& enemy);
 void DestroyWall(int gridIndex, Direction bulletDirection);
 
-void PrintInfo();
-
-
+Tank* getEnemyPointer(const Tank& tank);
 #pragma endregion ownDeclarations
 
 #pragma region gameFunctions											

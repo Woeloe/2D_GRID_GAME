@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\DAE\\Programming_1\\2D_Grid_Game\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7FB38361-A4DB-430E-A0D5-614C117A88C2}|_2D_Grid_Game\\_2D_Grid_Game.vcxproj|C:\\DAE\\Programming_1\\2D_Grid_Game\\_2D_Grid_Game\\Game.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{7FB38361-A4DB-430E-A0D5-614C117A88C2}|_2D_Grid_Game\\_2D_Grid_Game.vcxproj|solutionrelative:_2D_Grid_Game\\Game.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{7FB38361-A4DB-430E-A0D5-614C117A88C2}|_2D_Grid_Game\\_2D_Grid_Game.vcxproj|C:\\DAE\\Programming_1\\2D_Grid_Game\\_2D_Grid_Game\\Game.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{7FB38361-A4DB-430E-A0D5-614C117A88C2}|_2D_Grid_Game\\_2D_Grid_Game.vcxproj|solutionrelative:_2D_Grid_Game\\Game.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FB38361-A4DB-430E-A0D5-614C117A88C2}|_2D_Grid_Game\\_2D_Grid_Game.vcxproj|C:\\DAE\\Programming_1\\2D_Grid_Game\\_2D_Grid_Game\\Game.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{7FB38361-A4DB-430E-A0D5-614C117A88C2}|_2D_Grid_Game\\_2D_Grid_Game.vcxproj|solutionrelative:_2D_Grid_Game\\Game.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9E8E0983-56A7-4B3D-9BBB-860CCB7EF992}|Prog1Engine\\Prog1Engine.vcxproj|C:\\DAE\\Programming_1\\2D_Grid_Game\\Prog1Engine\\utils.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -30,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
@@ -40,7 +40,7 @@
               "RelativeDocumentMoniker": "Prog1Engine\\utils.h",
               "ToolTip": "C:\\DAE\\Programming_1\\2D_Grid_Game\\Prog1Engine\\utils.h",
               "RelativeToolTip": "Prog1Engine\\utils.h",
-              "ViewState": "AgIAADUAAAAAAAAAAAAAAFwAAAAuAAAAAAAAAA==",
+              "ViewState": "AgIAADsAAAAAAAAAAAAAAFwAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-11-25T16:23:43.636Z",
               "IsPinned": true
@@ -72,25 +72,32 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Game.h",
               "DocumentMoniker": "C:\\DAE\\Programming_1\\2D_Grid_Game\\_2D_Grid_Game\\Game.h",
               "RelativeDocumentMoniker": "_2D_Grid_Game\\Game.h",
               "ToolTip": "C:\\DAE\\Programming_1\\2D_Grid_Game\\_2D_Grid_Game\\Game.h",
               "RelativeToolTip": "_2D_Grid_Game\\Game.h",
-              "ViewState": "AgIAAF0AAAAAAAAAAAAAAHcAAAALAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAABSAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-11-25T16:19:05.05Z"
-            },
+              "WhenOpened": "2024-11-25T16:19:05.05Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Game.cpp",
               "DocumentMoniker": "C:\\DAE\\Programming_1\\2D_Grid_Game\\_2D_Grid_Game\\Game.cpp",
               "RelativeDocumentMoniker": "_2D_Grid_Game\\Game.cpp",
               "ToolTip": "C:\\DAE\\Programming_1\\2D_Grid_Game\\_2D_Grid_Game\\Game.cpp",
               "RelativeToolTip": "_2D_Grid_Game\\Game.cpp",
-              "ViewState": "AgIAAIkBAAAAAAAAAAAAAJ4BAABiAAAAAAAAAA==",
+              "ViewState": "AgIAAE0AAAAAAAAAAAAUwIkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "OverriddenGroupName": "_2D_Grid_Game",
               "WhenOpened": "2024-11-25T16:19:16.045Z",
