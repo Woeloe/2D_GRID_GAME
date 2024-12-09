@@ -412,7 +412,7 @@ void CheckBulletConditions(Tank& tank)
 	}
 
 	//Does bullet collide with enemy's bullet?
-	if (IsOverlapping(Circlef(tank.bullet.position, 5.f), Circlef(pEnemy->bullet.position, 5.f)))
+	if (IsOverlapping(Circlef(tank.bullet.position, 5.f), Circlef(pEnemy->bullet.position, 5.f)) && !pEnemy->canShoot)
 	{
 		tank.canShoot = true;
 		pEnemy->canShoot = true;

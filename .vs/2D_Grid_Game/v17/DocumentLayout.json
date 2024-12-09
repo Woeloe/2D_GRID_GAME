@@ -43,8 +43,7 @@
               "ViewState": "AgIAADUAAAAAAAAAAAAAAFwAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-11-25T16:23:43.636Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
@@ -81,8 +80,7 @@
               "RelativeToolTip": "_2D_Grid_Game\\Game.h",
               "ViewState": "AgIAAF0AAAAAAAAAAAAAAHcAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-11-25T16:19:05.05Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-25T16:19:05.05Z"
             },
             {
               "$type": "Document",
@@ -92,7 +90,7 @@
               "RelativeDocumentMoniker": "_2D_Grid_Game\\Game.cpp",
               "ToolTip": "C:\\DAE\\Programming_1\\2D_Grid_Game\\_2D_Grid_Game\\Game.cpp",
               "RelativeToolTip": "_2D_Grid_Game\\Game.cpp",
-              "ViewState": "AgIAABkCAAAAAAAAAAAAAGEAAAAOAAAAAAAAAA==",
+              "ViewState": "AgIAAIkBAAAAAAAAAAAAAJ4BAABiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "OverriddenGroupName": "_2D_Grid_Game",
               "WhenOpened": "2024-11-25T16:19:16.045Z",
