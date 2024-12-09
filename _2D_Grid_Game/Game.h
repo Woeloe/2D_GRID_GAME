@@ -117,6 +117,8 @@ void FireBullet(Tank& tank);
 void HitEnemy(Tank& enemy);
 void DestroyWall(int gridIndex, Direction bulletDirection);
 
+void PrintInfo();
+
 
 #pragma endregion ownDeclarations
 

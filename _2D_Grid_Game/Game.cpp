@@ -13,6 +13,9 @@ void Start()
 	LoadSprites();
 	ResetGame();
 
+	std::cout << "Welcome to Tank Wars!\n";
+	std::cout << "Press the \"I\" key for more information\n\n";
+
 }
 
 void Draw()
@@ -89,6 +92,10 @@ void OnKeyUpEvent(SDL_Keycode key)
 	if (g_IsGameOver && key == SDLK_r)
 	{
 		ResetGame();
+	}
+	if (key == SDLK_i)
+	{
+		PrintInfo();
 	}
 }
 
@@ -259,7 +266,7 @@ void DrawTank(const Tank& tank)
 
 	//Draw tank sprite
 	DrawTexture(tank.sprite.texture, destinationRect, sourceRect);
-	FillEllipse(tank.position, 5, 5);
+	//FillEllipse(tank.position, 5, 5);
 
 }
 
@@ -458,6 +465,16 @@ void DestroyWall(int gridIndex, Direction bulletDirection)
 			}
 		}
 }
+void PrintInfo()
+{
+	std::cout << "Welcome to Tank Wars!\n";
+	std::cout << "Each player controls his tank using their respective controls\n";
+	std::cout << "Tank 1 uses ZSQD to move around and Left Shift to shoot\n";
+	std::cout << "Tank 2 uses the arrow keys to move around and Right Shift to shoot\n";
+	std::cout << "Each player starts with 5 lives\n";
+	std::cout << "Shoot the walls to destroy them and create your own path\n\n";
+	std::cout << "When one of you dies and the game is over you can press the \"R\" key to reset the game\n";
+}
 #pragma endregion ownDefinitions
 
 Point2f Tank::GetCenterPos()
@@ -536,7 +553,7 @@ void InitializeMap()
 						g_Tank2.position.x = float(idx * g_CellSize);
 						g_Tank2.position.y = float(row * g_CellSize);
 
-						std::cout << g_Tank2.position.x << "    " << g_Tank2.position.y;
+						//std::cout << g_Tank2.position.x << "    " << g_Tank2.position.y;
 					}
 				}
 			}
