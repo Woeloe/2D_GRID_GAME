@@ -15,6 +15,9 @@ void Start()
 
 	std::cout << "Welcome to Tank Wars!\n";
 	std::cout << "Press the \"I\" key for more information\n\n";
+	std::cout << "Asset artists:\n";
+	std::cout << "\tTank & Mech sprites: Tantinos on itch.io\n";
+	std::cout << "\tBrick tiles sprite: Robert Brooks on Gamedeveloperstudio.com\n\n";
 
 }
 
